@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="Y9w-9B14NeT9DCnOAeGF">
+    <mxGraphModel dx="2571" dy="1413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="izPmNXDPOeUbaTDd3PEc-1" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Cliente" vertex="1">
+          <mxGeometry height="90" width="160" x="250" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="izPmNXDPOeUbaTDd3PEc-2" parent="izPmNXDPOeUbaTDd3PEc-1" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="- CPF&lt;div&gt;- Nome&lt;/div&gt;&lt;div&gt;- Telefone&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="izPmNXDPOeUbaTDd3PEc-6" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Veículo" vertex="1">
+          <mxGeometry height="130" width="160" x="500" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="izPmNXDPOeUbaTDd3PEc-7" parent="izPmNXDPOeUbaTDd3PEc-6" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="- Placa&lt;div&gt;- Status atual&lt;/div&gt;&lt;div&gt;- Data de retirada&lt;/div&gt;&lt;div&gt;- Data de devolução&lt;/div&gt;&lt;div&gt;- Quilometragem inicial&lt;/div&gt;&lt;div&gt;- Quilometragem final&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="160" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="izPmNXDPOeUbaTDd3PEc-8" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Categoria do veículo" vertex="1">
+          <mxGeometry height="70" width="160" x="740" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="izPmNXDPOeUbaTDd3PEc-9" parent="izPmNXDPOeUbaTDd3PEc-8" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="- Tipo&lt;div&gt;- Serviço a ser utilizado&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="160" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="izPmNXDPOeUbaTDd3PEc-10" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Pagamento" vertex="1">
+          <mxGeometry height="100" width="200" x="830" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="izPmNXDPOeUbaTDd3PEc-11" parent="izPmNXDPOeUbaTDd3PEc-10" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="- Tipo de pagamento&lt;div&gt;- Parcelado ou à Vista&lt;/div&gt;&lt;div&gt;- Quantas parcelas (se parcelado)&lt;/div&gt;&lt;div&gt;- Data do pagamento&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="izPmNXDPOeUbaTDd3PEc-12" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Multa" vertex="1">
+          <mxGeometry height="90" width="160" x="1220" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="izPmNXDPOeUbaTDd3PEc-13" parent="izPmNXDPOeUbaTDd3PEc-12" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="- Tipo de multa&lt;div&gt;- Nível de prioridade&lt;/div&gt;&lt;div&gt;- Cliente responsável&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="izPmNXDPOeUbaTDd3PEc-14" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Manutenção" vertex="1">
+          <mxGeometry height="100" width="160" x="1220" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="izPmNXDPOeUbaTDd3PEc-15" parent="izPmNXDPOeUbaTDd3PEc-14" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="- Severidade dos danos&lt;div&gt;- Prioridade de manutenção&lt;/div&gt;&lt;div&gt;- Cliente responsável&lt;/div&gt;&lt;div&gt;- Valor da manutenção&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="160" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="izPmNXDPOeUbaTDd3PEc-16" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Funcionário que realizou o atendimento" vertex="1">
+          <mxGeometry height="100" width="250" x="500" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="izPmNXDPOeUbaTDd3PEc-17" parent="izPmNXDPOeUbaTDd3PEc-16" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="- CPF&lt;div&gt;- Nome&lt;/div&gt;&lt;div&gt;- Telefone&lt;/div&gt;&lt;div&gt;- Data do atendimento&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="250" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="izPmNXDPOeUbaTDd3PEc-18" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Status do veículo" vertex="1">
+          <mxGeometry height="90" width="170" x="980" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="izPmNXDPOeUbaTDd3PEc-19" parent="izPmNXDPOeUbaTDd3PEc-18" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="- Danos&lt;div&gt;- Combustível&lt;/div&gt;&lt;div&gt;- Valores adicionais (limpeza)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="izPmNXDPOeUbaTDd3PEc-36" edge="1" parent="1" source="izPmNXDPOeUbaTDd3PEc-2" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" target="izPmNXDPOeUbaTDd3PEc-7" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="370" y="370" as="sourcePoint" />
+            <mxPoint x="470" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="izPmNXDPOeUbaTDd3PEc-38" edge="1" parent="1" source="izPmNXDPOeUbaTDd3PEc-7" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="izPmNXDPOeUbaTDd3PEc-9" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="710" y="360" as="sourcePoint" />
+            <mxPoint x="810" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="izPmNXDPOeUbaTDd3PEc-39" edge="1" parent="1" source="izPmNXDPOeUbaTDd3PEc-2" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="izPmNXDPOeUbaTDd3PEc-17" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="410" y="379" as="sourcePoint" />
+            <mxPoint x="700" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="izPmNXDPOeUbaTDd3PEc-40" edge="1" parent="1" source="izPmNXDPOeUbaTDd3PEc-17" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.005;entryY=0.386;entryDx=0;entryDy=0;entryPerimeter=0;" target="izPmNXDPOeUbaTDd3PEc-11" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="730" y="640" as="sourcePoint" />
+            <mxPoint x="830" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="izPmNXDPOeUbaTDd3PEc-41" edge="1" parent="1" source="izPmNXDPOeUbaTDd3PEc-9" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" target="izPmNXDPOeUbaTDd3PEc-19" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="730" y="340" as="sourcePoint" />
+            <mxPoint x="830" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="izPmNXDPOeUbaTDd3PEc-42" edge="1" parent="1" source="izPmNXDPOeUbaTDd3PEc-19" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="izPmNXDPOeUbaTDd3PEc-13" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="1170" y="350" as="sourcePoint" />
+            <mxPoint x="1270" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="izPmNXDPOeUbaTDd3PEc-44" edge="1" parent="1" source="izPmNXDPOeUbaTDd3PEc-19" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="izPmNXDPOeUbaTDd3PEc-14" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="1200" y="255" as="sourcePoint" />
+            <mxPoint x="1300" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
